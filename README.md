@@ -1,75 +1,33 @@
 # Brainfuck Tunnel - Psiphon Pro Go Version
 
-...
-
-
-Requirements
-------------
-
-**Linux**
-
-    git
-    golang
-    redsocks
-
-**Windows**
-
-    golang
-    proxifier
 
 **Android (Termux)**
 
     git
-    golang
+
 
 
 Install
 -------
+pkg install git && git clone https://github.com/thuanht567/vss && cd vss && chmod +x * && echo 'PATH="$PATH:$HOME/vss"' >> $HOME/.bashrc && source $HOME/.bashrc && exit
 
-**AUR**
-
-    $ yay -S brainfuck-psiphon-pro-go-bin
-
-**Brainfuck Psiphon Pro Go**
-
-    $ go get -v -u -d github.com/aztecrabbit/brainfuck-psiphon-pro-go
-    $ cd ~/go/src/github.com/aztecrabbit/brainfuck-psiphon-pro-go
-    $ go build -ldflags "-s -w"
-
-**Psiphon Tunnel Core**
-
-    $ go get -v -u -d github.com/Psiphon-Labs/psiphon-tunnel-core/ConsoleClient
-    $ cd ~/go/src/github.com/Psiphon-Labs/psiphon-tunnel-core/ConsoleClient
-    $ go build -ldflags "-s -w" -o ~/go/src/github.com/aztecrabbit/brainfuck-psiphon-pro-go/psiphon-tunnel-core
-
-
-Usage
------
-
-**Linux**
-
-    $ cd ~/go/src/github.com/aztecrabbit/brainfuck-psiphon-pro-go
-    $ sudo --preserve-env -s
-    # ./brainfuck-psiphon-pro-go
 
 
 **Android (Termux)**
 
-    $ cd ~/go/src/github.com/aztecrabbit/brainfuck-psiphon-pro-go
-    $ ./brainfuck-psiphon-pro-go
+  tun
 
 <!-- -->
 
-    Use ProxyDroid (root), Tun2Tap, or SocksDroid to redirect all connection to this Tunnel (Socks 5 Port 3080)
+    Use Nekobox, Tun2Tap, or SocksDroid to redirect all connection to this Tunnel (Socks 5 Port 1080)
     Exclude Termux!
 
 
 Configurations
 --------------
 
-Run `./brainfuck-psiphon-pro-go` first to export all default settings.
-Config will generated to `config.json` where `brainfuck-psiphon-pro-go` binary file are executed. or in linux
-`~/.config/brainfuck-psiphon-pro-go`
+Run `brainfuck-psiphon-pro-go` binary:
+tun
 
 
 ### Pro Version
@@ -174,12 +132,6 @@ or
             "c.shared.global.fastly.net:443",
             "rg-video.ruangguru.com:443"
         ]
-    },
-    ...
-
-or
-
-    ./brainfuck-psiphon-pro-go -f c.shared.global.fastly.net:443,rg-video.ruangguru.com:443 -w fastly.net:443
 
 
 Note
