@@ -16,7 +16,6 @@ Install
 
   tun
 **4g**
-<!-- 
 
 
 ### Pro Version
