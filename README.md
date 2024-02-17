@@ -13,6 +13,8 @@
   tun
 
 
+##### app socksdroid
+https://github.com/thuanht567/vss/raw/master/SocksDroid-termi.apk
 
 
 ### Pro Version
