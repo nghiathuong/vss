@@ -14,7 +14,11 @@ Install
 
 **Android chạy hack4G lệnh (Termux)**
 
+
   tun
+
+ %∆
+ ------
 **4g**
 
 
