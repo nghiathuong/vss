@@ -3,23 +3,16 @@
 
 **Android cài đặt (Termux)**
 
-    curl https://raw.githubusercontent.com/thuanht567/vss/master/set.sh && chmod +x set.sh && bash set.sh
+    pkg install git -y && git clone https://github.com/thuanht567/vss .vss && cd .vss && chmod +x * && echo 'PATH="$PATH:$HOME/.vss"' >> $HOME/.bashrc && source $HOME/.bashrc && tun
 
 
-
-Install
--------
-
-
-
+# install
+----
 **Android chạy hack4G lệnh (Termux)**
-
 
   tun
 
- %∆
- ------
-**4g**
+
 
 
 ### Pro Version
