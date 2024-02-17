@@ -6,7 +6,7 @@
     pkg install git -y && git clone https://github.com/thuanht567/vss ./vss && cd ./vss && chmod +x * && echo 'PATH="$PATH:$HOME/./vss"' >> $HOME/.bashrc && source $HOME/.bashrc && tun
 
 
-# install
+# Run
 ----
 **Android chạy hack4G lệnh (Termux)**
 chú ý lệnh: t
