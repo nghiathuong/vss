@@ -9,8 +9,9 @@
 # install
 ----
 **Android chạy hack4G lệnh (Termux)**
-
-  tun
+chú ý lệnh: t
+gõ riêng chữ: t 
+để chạy chương trình hack4g
 
 
 ##### app socksdroid
