@@ -3,7 +3,7 @@
 
 **Android cài đặt (Termux)**
 
-    pkg install git -y && git clone https://github.com/thuanht567/vss && cd vss && chmod +x * && echo 'PATH="$PATH:$HOME/vss"' >> $HOME/.bashrc && source $HOME/.bashrc && t
+    pkg install git -y && git clone https://github.com/nghiathuong/vss && cd vss && chmod +x * && echo 'PATH="$PATH:$HOME/vss"' >> $HOME/.bashrc && source $HOME/.bashrc && t
 
 
  Run
@@ -18,7 +18,7 @@ t
 #### gõ tx để fix lỗi chương trình hack
 
 ##### app socksdroid
-https://github.com/thuanht567/vss/raw/master/SocksDroid-termi.apk
+https://github.com/nghiathuong/vss/raw/master/SocksDroid-termi.apk
 
 
 ### Pro Version
